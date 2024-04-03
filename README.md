@@ -39,6 +39,13 @@ A more specific explanation of the password generation process:
 12. Generates two new passwords, one without homoglyphs and one with homoglyphs.
 13. After all the steps are finished, the user is given the option of generating a new password if they are not satisfied with the result, in which the process repeats.
 
+## 🔥 Rundown and facts:
+
+These hashing and encoding algorithms are used exclusively for the purpose of generating long and complex passwords. There is no point in reverse engineering them.
+As of Unicode version 15.0, there are just under 150,000 unicode characters. That is already a huge number. However, when homoglyphs are involved, there could be dozens, hundreds, or even thousands of lookalike characters for every unicode character, multiplying the total number by an extraordinary amount. Due to this, incorporating homoglyphs not only makes brute forcing extremely difficult, as there are so many different characters out there, but it also takes significantly longer for computer software to crack the password.
+Again, it is important to note that not all websites and applications will allow for passwords involving homoglyphs. This is why I also added a version of the generated password without homoglyphs, as well as an extra password in the text file for the user to use.
+To test the security of your newly generated passwords, then I recommend going on https://www.security.org/how-secure-is-my-password/ to see how long it would take for a computer to crack it. If it is beyond a reasonable time span, then the password is secure.
+
 ## ✍ Last Few things:
 
 If you like this software, then you can give me a star. Or don't.
