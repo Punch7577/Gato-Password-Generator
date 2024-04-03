@@ -1,5 +1,4 @@
-from pathlib import Path
-import os, requests, base64
+# These are the homoglyphs that will replace the regular characters in the new password to make it more secure
 
 homoglyphs = {
 '!': 'ǃ',
