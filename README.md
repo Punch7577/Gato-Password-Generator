@@ -12,7 +12,7 @@ The Gato Password Generator is a software I coded exclusively in Python that gen
 
 1. Type in anything random (it can have anything. Letters, numbers, symbols, anything on your keyboard in general).
 2. Type in the number of characters you want your new password to have.
-3. Done! It should show a wall of text with random passwords with your new password, both with and without homoglyphs at the bottom of the text.
+3. Done! It should show a wall of text with random passwords with your new password, both with and without homoglyphs at the bottom of the text. If the user does not like the password that was generated, then they can generate a new password, or they can use one of the additional passwords given during the processes. They can also check out the additional password that gets saved onto the text file.
 
 ## 💡 How does the software work?
 
