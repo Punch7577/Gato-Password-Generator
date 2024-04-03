@@ -1,5 +1,5 @@
 # Gato-Password-Generator
-## Generate long, complex, secure passwords for yourself.
+## 🐍 Generate long, complex, secure passwords for yourself.
 
 The Gato Password Generator is a software I coded exclusively in Python that generates long, complex, secure passwords for you. It is free, easy to use, and has no setup process. You just download it and use it right away!
 
